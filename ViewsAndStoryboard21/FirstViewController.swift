@@ -17,6 +17,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         setUpUI() // call your func for the button design it in the viewDidLoad scope
         print("the view did load was called")
+        view.addVerticalGradientLayer(topColor: .red, bottomColor: .purple)
     }
     
     // life cycle
